@@ -44,10 +44,7 @@
         </div>
 
         <div class="mb-6">
-            <button
-                type="submit"
-                class="bg-laravel text-white rounded py-2 px-4 hover:bg-black"
-            >
+            <button type="submit" class="btn2">
                 Sign in
             </button>
         </div>
@@ -60,6 +57,14 @@
                 >
             </p>
         </div>
+        <div class="mt-8">
+            <p>
+                Forget password?
+                <a href="/forgot-password" class="text-laravel"
+                    >Password Reset</a>
+            </p>
+        </div>
+
     </form>
     </x-card>
 
